@@ -1,302 +1,1002 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ananthan S P</title>
-    <link rel="icon" href="https://media.licdn.com/dms/image/D5603AQHRAsRrj05rsQ/profile-displayphoto-shrink_200_200/0/1721112463229?e=2147483647&v=beta&t=OQkvujdvYpP0n3mG8P6ESBNio4RkBg15QvKhBgHb_zo">
-    <link rel="stylesheet" href="assets/css/style-starter.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ananthan S P</title>
+  <link rel="icon"
+    href="https://media.licdn.com/dms/image/D5603AQHRAsRrj05rsQ/profile-displayphoto-shrink_200_200/0/1721112463229?e=2147483647&v=beta&t=OQkvujdvYpP0n3mG8P6ESBNio4RkBg15QvKhBgHb_zo">
+  <link rel="stylesheet" href="assets/css/style-starter.css">
 </head>
+
 <body>
-    <!-- header -->
-<header id="site-header" class="fixed-top">
+  <!-- header -->
+  <header id="site-header" class="fixed-top">
     <div class="container">
-        <nav class="navbar navbar-expand-lg stroke">
-            <a class="navbar-brand" href="index.html">
-                <span class=""><img class="about-image" src="https://media.licdn.com/dms/image/D5603AQHRAsRrj05rsQ/profile-displayphoto-shrink_200_200/0/1721112463229?e=2147483647&v=beta&t=OQkvujdvYpP0n3mG8P6ESBNio4RkBg15QvKhBgHb_zo" alt=""></span> Ananthan S P
-            </a>
-            <!-- if logo is image enable this   
+      <nav class="navbar navbar-expand-lg stroke">
+        <a class="navbar-brand" href="index.html">
+          <div class="logo-image-section">
+            <span class="my-pic-logo"><img class="my-pic-image"
+                src="https://media.licdn.com/dms/image/D5603AQHRAsRrj05rsQ/profile-displayphoto-shrink_200_200/0/1721112463229?e=2147483647&v=beta&t=OQkvujdvYpP0n3mG8P6ESBNio4RkBg15QvKhBgHb_zo"
+                alt=""></span> Ananthan S P
+          </div>
+        </a>
+        <!-- if logo is image enable this   
         <a class="navbar-brand" href="#index.html">
             <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
         </a> -->
-            <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
-                data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-                <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-                </span>
-            </button>
-  
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item @@home__active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                  <li class="nav-item @@about__active">
-                    <a class="nav-link" href="index.html">Projects</a>
-                </li>
-                    <li class="nav-item @@contact__active">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+        <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+          data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+          <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="projects.html">Projects <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- toggle switch for light and dark theme -->
+        <div class="mobile-position">
+          <nav class="navigation">
+            <div class="theme-switch-wrapper">
+              <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox">
+                <div class="mode-container">
+                  <i class="gg-sun"></i>
+                  <i class="gg-moon"></i>
+                </div>
+              </label>
             </div>
-            <!-- toggle switch for light and dark theme -->
-            <div class="mobile-position">
-                <nav class="navigation">
-                    <div class="theme-switch-wrapper">
-                        <label class="theme-switch" for="checkbox">
-                            <input type="checkbox" id="checkbox">
-                            <div class="mode-container">
-                                <i class="gg-sun"></i>
-                                <i class="gg-moon"></i>
-                            </div>
-                        </label>
-                    </div>
-                </nav>
-            </div>
-            <!-- //toggle switch for light and dark theme -->
-        </nav>
+          </nav>
+        </div>
+        <!-- //toggle switch for light and dark theme -->
+      </nav>
     </div>
   </header>
   <!-- //header -->
 
   <!--project-section-->
 
+  <style>
+    .project-section {
+      padding: 80px 0;
+      background: var(--bg-color);
+    }
+
+    .project-card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 30px;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .project-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+      border-color: var(--primary);
+    }
+
+    .project-card::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle at center, var(--primary) 0%, transparent 70%);
+      opacity: 0;
+      transition: opacity 0.4s;
+      z-index: -1;
+    }
+
+    .project-card:hover::before {
+      opacity: 0.1;
+    }
+
+    .project-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--heading-color);
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .project-title i {
+      color: var(--primary);
+    }
+
+    .project-desc {
+      color: var(--font-color);
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .tech-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 25px;
+    }
+
+    .tech-badge {
+      background: rgba(142, 67, 231, 0.1);
+      color: var(--primary);
+      padding: 4px 12px;
+      border-radius: 50px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border: 1px solid rgba(142, 67, 231, 0.2);
+    }
+
+    .project-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #fff;
+      background: var(--primary);
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: 0.3s;
+      text-decoration: none !important;
+    }
+
+    .project-link:hover {
+      background: #6719c4;
+      color: #fff;
+      gap: 12px;
+    }
+
+    [data-theme='light'] .project-card {
+      background: rgba(0, 0, 0, 0.02);
+      border-color: rgba(0, 0, 0, 0.1);
+    }
+  </style>
+
   <div class="project-section">
     <div class="container">
-        <div class="row mt-3">
-            <div class="col-12 mt-5">
-                <div class="project-1">
-                    <iframe class="mt-5" src=" https://ananthansp-movie-website.netlify.app" width="100%" height="500" frameborder="0"></iframe>
-                </div>
-            </div>
-            <div class="col-12 mt-5">
-                <div class="project-1">
-                    <iframe class="mt-5" src=" https://ananthansp-car-website.netlify.app/" width="100%" height="500" frameborder="0"></iframe>
-                </div>
-            </div>
-            <div class="col-12 mt-5">
-                <div class="project-1">
-                    <iframe class="mt-5" src=" https://ananthansp-bmi-calculator.netlify.app" width="100%" height="500" frameborder="0"></iframe>
-                </div>
-            </div>
-            <div class="col-12 mt-5">
-                <div class="project-1">
-                    <iframe class="mt-5" src=" https://ananthansp10-quotes-generator-app.netlify.app/" width="100%" height="500" frameborder="0"></iframe>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5">
+          <h3 class="title-big">Latest Projects</h3>
+          <p class="mt-2 text-muted">A collection of my recent work and open source contributions</p>
         </div>
+      </div>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-tasks"></i> Task Management Sample
+              </div>
+              <p class="project-desc">A comprehensive sample application for managing tasks, featuring user
+                authentication and real-time updates.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Express</span>
+                <span class="tech-badge">MongoDB</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Task-Management-sample" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-book"></i> Library Management
+              </div>
+              <p class="project-desc">Digital library system to track books, members, and borrowing history with an
+                intuitive dashboard.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">SQL</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Library-Management-Project" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-shopping-cart"></i> React E-commerce
+              </div>
+              <p class="project-desc">Fully functional e-commerce frontend with cart management, product filtering, and
+                sleek UI.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">Redux</span>
+                <span class="tech-badge">Tailwind</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/React-Ecommerce-Task" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-check-square"></i> Task Management
+              </div>
+              <p class="project-desc">Advanced task tracker with priority settings, deadlines, and multi-user
+                collaboration tools.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">MERN Stack</span>
+                <span class="tech-badge">JWT</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Task-Management" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-pencil-square-o"></i> Blogging Website
+              </div>
+              <p class="project-desc">Personal blogging platform with markdown support, categories, and social sharing
+                features.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">Firebase</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/blogging-website" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-dashboard"></i> Dashboard Project
+              </div>
+              <p class="project-desc">Metric-driven dashboard featuring interactive charts and data visualization for
+                business stats.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">Chart.js</span>
+                <span class="tech-badge">React</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Dashboard-project" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-shopping-bag"></i> E-com Task
+              </div>
+              <p class="project-desc">Lightweight e-commerce task implementation focusing on optimized state management
+                and performance.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">API</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/ecom-task" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-balance-scale"></i> Legal Connect Backend
+              </div>
+              <p class="project-desc">Secure backend infrastructure for a legal consultation platform, handling
+                sensitive client data.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">MongoDB</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Legal-connect-project-Backend" target="_blank"
+              class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 9 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-graduation-cap"></i> Online Exam Test
+              </div>
+              <p class="project-desc">Platform for conducting virtual exams with timed sessions, automated grading, and
+                proctoring.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">Node.js</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Online-exam-test-project" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 10 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-newspaper-o"></i> Article Feed
+              </div>
+              <p class="project-desc">Smart article aggregator that fetches and displays news based on user preferences
+                and interests.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">NewsAPI</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Article-Feed-project" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 11 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-shopping-cart"></i> Ecommerce Website
+              </div>
+              <p class="project-desc">Standard e-commerce platform with product listings, user accounts, and checkout
+                flow.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">MERN Stack</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Ecommerce-website" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 12 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-link"></i> Url Shortner
+              </div>
+              <p class="project-desc">Simple and efficient URL shortening service with analytics for link clicks.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">ShortId</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Url-Shortner" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 13 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-legal"></i> Legal Consultation Frontend
+              </div>
+              <p class="project-desc">Interface for a legal consultation platform, connecting clients with legal
+                professionals.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">Tailwind</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Legal-consultation-website-Frontend" target="_blank"
+              class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 14 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-server"></i> Legal Consultation Backend
+              </div>
+              <p class="project-desc">API and database management for a secure legal consultation platform.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Express</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Legal-consultation-project-backend" target="_blank"
+              class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 15 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-comments"></i> Chat Application
+              </div>
+              <p class="project-desc">Real-time chat platform supporting private and group messaging with socket
+                connection.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">Socket.io</span>
+                <span class="tech-badge">Node.js</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Chat-Application" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 16 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-users"></i> User Management React
+              </div>
+              <p class="project-desc">CRUD application for managing user profiles and permissions in a secure dashboard.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">Context API</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/User-Management-React-Project" target="_blank"
+              class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 17 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-clone"></i> Olx Clone React
+              </div>
+              <p class="project-desc">Classified ads marketplace clone with listing search and categorized items.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">Firebase</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Olx-Clone-React" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 18 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-play"></i> Netflix Clone React
+              </div>
+              <p class="project-desc">Movie preview platform clone with dynamic trailers and category filtering.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">TMDB API</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Netflix-Clone-React" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 19 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-list-ul"></i> Todoo App
+              </div>
+              <p class="project-desc">Efficient personal productivity tool for tracking daily tasks and reminders.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Local Storage</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Todoo-App" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 20 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-user-circle-o"></i> Portfolio Website
+              </div>
+              <p class="project-desc">A professional portfolio showcasing skills, projects, and career journey in a
+                clean layout.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JS</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/My-portfolio-website" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 21 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-building-o"></i> Lulu Mall Website
+              </div>
+              <p class="project-desc">Web presence for a shopping mall with floor guides, brand listings, and event
+                updates.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">HTML/CSS</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Lulu-mall-website" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 22 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-ticket"></i> Book My Show Clone
+              </div>
+              <p class="project-desc">Movie and event booking platform with seat selection and ticket generation.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Bootstrap</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Book-my-show-website" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 23 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-car"></i> Tesla Website
+              </div>
+              <p class="project-desc">Clean and immersive landing page clone of the official Tesla automotive showcase.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-badge">Transition.js</span>
+                <span class="tech-badge">CSS Grid</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Tesla-website" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 24 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-shopping-basket"></i> Flipkart Clone
+              </div>
+              <p class="project-desc">Responsive e-commerce marketplace clone featuring categorization and product
+                grids.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">Bootstrap</span>
+                <span class="tech-badge">HTML/CSS</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Flipkart-clone" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 25 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-cloud"></i> Weather App
+              </div>
+              <p class="project-desc">Accurate weather forecasting tool providing real-time data for global locations.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-badge">OpenWeatherMap API</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Weather-App" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 26 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-calculator"></i> BMI Calculator
+              </div>
+              <p class="project-desc">Health tracking utility for calculating body mass index with visual status
+                indicators.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">JavaScript</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/BMI-Calculator" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 27 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-file-video-o"></i> Netflix Clone
+              </div>
+              <p class="project-desc">Responsive static clone of the Netflix landing page focusing on visual accuracy.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-badge">HTML/CSS</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Netflix-Clone" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 28 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-newspaper-o"></i> News Website
+              </div>
+              <p class="project-desc">News portal prototype with categorization, trending stories, and multimedia
+                articles.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">JavaScript</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/News-Website" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 29 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-birthday-cake"></i> Age Calculator
+              </div>
+              <p class="project-desc">Tool to calculate precise age down to years, months, and days from a birthdate.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-badge">JavaScript</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/Age-Calculator" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 30 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card">
+            <div>
+              <div class="project-title">
+                <i class="fa fa-image"></i> Image Search App
+              </div>
+              <p class="project-desc">Visual search engine platform fetching and displaying high-quality images from
+                Unsplash.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">Unsplash API</span>
+                <span class="tech-badge">JS</span>
+              </div>
+            </div>
+            <a href="https://github.com/Ananthansp10/image-search-app" target="_blank" class="project-link">
+              View Repository <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
-  
+
   <!-- all js scripts and files here -->
 
-<script src="assets/js/theme-change.js"></script><!-- theme switch js (light and dark)-->
+  <script src="assets/js/theme-change.js"></script><!-- theme switch js (light and dark)-->
 
-<script src="assets/js/jquery-3.3.1.min.js"></script><!-- default jQuery -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script><!-- default jQuery -->
 
-<!-- /typig-text-->
-<script>
-  const typedTextSpan = document.querySelector(".typed-text");
-  const cursorSpan = document.querySelector(".cursor");
+  <!-- /typig-text-->
+  <script>
+    const typedTextSpan = document.querySelector(".typed-text");
+    const cursorSpan = document.querySelector(".cursor");
 
-  const textArray = ["UI/UX Designer", "Freelancer", "Web developer"];
-  const typingDelay = 200;
-  const erasingDelay = 10;
-  const newTextDelay = 100; // Delay between current and next text
-  let textArrayIndex = 0;
-  let charIndex = 0;
+    const textArray = ["Software Developer", "Web Designer", "Web Developer", "Full Stack Developer", "MERN Stack Developer", "Freelancer"];
+    const typingDelay = 200;
+    const erasingDelay = 10;
+    const newTextDelay = 100; // Delay between current and next text
+    let textArrayIndex = 0;
+    let charIndex = 0;
 
-  function type() {
-    if (charIndex < textArray[textArrayIndex].length) {
-      if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
-      typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
-      charIndex++;
-      setTimeout(type, typingDelay);
-    } else {
-      cursorSpan.classList.remove("typing");
-      setTimeout(erase, newTextDelay);
+    function type() {
+      if (charIndex < textArray[textArrayIndex].length) {
+        if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+        typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, typingDelay);
+      } else {
+        cursorSpan.classList.remove("typing");
+        setTimeout(erase, newTextDelay);
+      }
     }
-  }
 
-  function erase() {
-    if (charIndex > 0) {
-      // add class 'typing' if there's none
-      if (!cursorSpan.classList.contains("typing")) {
-        cursorSpan.classList.add("typing");
+    function erase() {
+      if (charIndex > 0) {
+        // add class 'typing' if there's none
+        if (!cursorSpan.classList.contains("typing")) {
+          cursorSpan.classList.add("typing");
+        }
+        typedTextSpan.textContent = textArray[textArrayIndex].substring(0, 0);
+        charIndex--;
+        setTimeout(erase, erasingDelay);
+      } else {
+        cursorSpan.classList.remove("typing");
+        textArrayIndex++;
+        if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+        setTimeout(type, typingDelay);
       }
-      typedTextSpan.textContent = textArray[textArrayIndex].substring(0, 0);
-      charIndex--;
-      setTimeout(erase, erasingDelay);
-    } else {
-      cursorSpan.classList.remove("typing");
-      textArrayIndex++;
-      if (textArrayIndex >= textArray.length) textArrayIndex = 0;
-      setTimeout(type, typingDelay);
     }
-  }
 
-  document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
-    if (textArray.length) setTimeout(type, newTextDelay + 250);
-  });
-</script>
-<!-- //typig-text-->
+    document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
+      if (textArray.length) setTimeout(type, newTextDelay + 250);
+    });
+  </script>
+  <!-- //typig-text-->
 
-<!-- services owlcarousel -->
-<script src="assets/js/owl.carousel.js"></script>
+  <!-- services owlcarousel -->
+  <script src="assets/js/owl.carousel.js"></script>
 
-<!-- script for services -->
-<script>
-  $(document).ready(function () {
-    $('.owl-two').owlCarousel({
-      loop: true,
-      margin: 30,
-      nav: false,
-      responsiveClass: true,
-      autoplay: false,
-      autoplayTimeout: 5000,
-      autoplaySpeed: 1000,
-      autoplayHoverPause: false,
-      responsive: {
-        0: {
-          items: 1,
-          nav: false
-        },
-        480: {
-          items: 1,
-          nav: false
-        },
-        700: {
-          items: 1,
-          nav: false
-        },
-        1090: {
-          items: 3,
-          nav: false
+  <!-- script for services -->
+  <script>
+    $(document).ready(function () {
+      $('.owl-two').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: false,
+        responsiveClass: true,
+        autoplay: false,
+        autoplayTimeout: 5000,
+        autoplaySpeed: 1000,
+        autoplayHoverPause: false,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          480: {
+            items: 1,
+            nav: false
+          },
+          700: {
+            items: 1,
+            nav: false
+          },
+          1090: {
+            items: 3,
+            nav: false
+          }
         }
-      }
+      })
     })
-  })
-</script>
-<!-- //script for services -->
+  </script>
+  <!-- //script for services -->
 
-<!-- script for tesimonials carousel slider -->
-<script>
-  $(document).ready(function () {
-    $("#owl-demo1").owlCarousel({
-      loop: true,
-      margin: 20,
-      nav: false,
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 1,
-          nav: false
-        },
-        736: {
-          items: 1,
-          nav: false
-        },
-        1000: {
-          items: 2,
-          nav: false,
-          loop: false
+  <!-- script for tesimonials carousel slider -->
+  <script>
+    $(document).ready(function () {
+      $("#owl-demo1").owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: false,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          736: {
+            items: 1,
+            nav: false
+          },
+          1000: {
+            items: 2,
+            nav: false,
+            loop: false
+          }
         }
-      }
+      })
     })
-  })
-</script>
-<!-- //script for tesimonials carousel slider -->
+  </script>
+  <!-- //script for tesimonials carousel slider -->
 
-<!-- video popup -->
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script>
-  $(document).ready(function () {
-    $('.popup-with-zoom-anim').magnificPopup({
-      type: 'inline',
+  <!-- video popup -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.popup-with-zoom-anim').magnificPopup({
+        type: 'inline',
 
-      fixedContentPos: false,
-      fixedBgPos: true,
+        fixedContentPos: false,
+        fixedBgPos: true,
 
-      overflowY: 'auto',
+        overflowY: 'auto',
 
-      closeBtnInside: true,
-      preloader: false,
+        closeBtnInside: true,
+        preloader: false,
 
-      midClick: true,
-      removalDelay: 300,
-      mainClass: 'my-mfp-zoom-in'
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-zoom-in'
+      });
+
+      $('.popup-with-move-anim').magnificPopup({
+        type: 'inline',
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: 'auto',
+
+        closeBtnInside: true,
+        preloader: false,
+
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-slide-bottom'
+      });
+    });
+  </script>
+  <!-- //video popup -->
+
+  <!-- stats number counter-->
+  <script src="assets/js/jquery.waypoints.min.js"></script>
+  <script src="assets/js/jquery.countup.js"></script>
+  <script>
+    $('.counter').countUp();
+  </script>
+  <!-- //stats number counter -->
+
+  <!-- disable body scroll which navbar is in active -->
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+  <!-- disable body scroll which navbar is in active -->
+
+  <!--/MENU-JS-->
+  <script>
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 80) {
+        $("#site-header").addClass("nav-fixed");
+      } else {
+        $("#site-header").removeClass("nav-fixed");
+      }
     });
 
-    $('.popup-with-move-anim').magnificPopup({
-      type: 'inline',
-
-      fixedContentPos: false,
-      fixedBgPos: true,
-
-      overflowY: 'auto',
-
-      closeBtnInside: true,
-      preloader: false,
-
-      midClick: true,
-      removalDelay: 300,
-      mainClass: 'my-mfp-slide-bottom'
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function () {
+      $("header").toggleClass("active");
     });
-  });
-</script>
-<!-- //video popup -->
-
-<!-- stats number counter-->
-<script src="assets/js/jquery.waypoints.min.js"></script>
-<script src="assets/js/jquery.countup.js"></script>
-<script>
-  $('.counter').countUp();
-</script>
-<!-- //stats number counter -->
-
-<!-- disable body scroll which navbar is in active -->
-<script>
-  $(function () {
-    $('.navbar-toggler').click(function () {
-      $('body').toggleClass('noscroll');
-    })
-  });
-</script>
-<!-- disable body scroll which navbar is in active -->
-
-<!--/MENU-JS-->
-<script>
-  $(window).on("scroll", function () {
-    var scroll = $(window).scrollTop();
-
-    if (scroll >= 80) {
-      $("#site-header").addClass("nav-fixed");
-    } else {
-      $("#site-header").removeClass("nav-fixed");
-    }
-  });
-
-  //Main navigation Active Class Add Remove
-  $(".navbar-toggler").on("click", function () {
-    $("header").toggleClass("active");
-  });
-  $(document).on("ready", function () {
-    if ($(window).width() > 991) {
-      $("header").removeClass("active");
-    }
-    $(window).on("resize", function () {
+    $(document).on("ready", function () {
       if ($(window).width() > 991) {
         $("header").removeClass("active");
       }
+      $(window).on("resize", function () {
+        if ($(window).width() > 991) {
+          $("header").removeClass("active");
+        }
+      });
     });
-  });
-</script>
-<!--//MENU-JS-->
+  </script>
+  <!--//MENU-JS-->
 
-<script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
 </body>
+
 </html>
